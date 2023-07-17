@@ -16,7 +16,7 @@ const makeRequest =(method, url,data )=>{
     console.log(JSON.parse(data));
   }
   xhr.onerror=()=>{
-    console.log('error is here buddy !')
+    console.log('error is here buddy, understood ? !')
   }
   xhr.send(JSON.stringify(data));
   })
